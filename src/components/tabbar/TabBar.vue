@@ -2,7 +2,7 @@
   <div id="tab-bar">
 
     <slot></slot>
-    <!-- 使用 slot 插槽，动态插入子元素 -->
+    <!-- 使用 slot 插槽，动态插入子元素s -->
   </div>
 
 </template>
