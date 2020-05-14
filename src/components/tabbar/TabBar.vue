@@ -1,9 +1,8 @@
 <template>
   <div id="tab-bar">
-    <div class="tab-bar-item">首页</div>
-    <div class="tab-bar-item">分类</div>
-    <div class="tab-bar-item">购物车</div>
-    <div class="tab-bar-item">我的</div>
+
+    <slot></slot>
+    <!-- 使用 slot 插槽，动态插入子元素 -->
   </div>
 
 </template>
@@ -29,10 +28,6 @@
     box-shadow: 0 -1px 1px rgba(100,100,100,.1);
 
   }
-  .tab-bar-item{
-    flex: 1;
-    text-align: center;
-    height: 49px;/* 一般都是49 ，ios ,android ,移动端*/
-  }
+
 
 </style>
